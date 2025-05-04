@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetroConosur S.R.L.</title>
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="/productos.css">
+    <link rel="stylesheet" href="/product.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/PetroBox"><img src="/images/social_logos/Facebook_Logo.png" alt="Facebook"></a>
+                <a href="https://www.youtube.com/@shimodadonald"><img src="/images/social_logos/Youtube_logo.png" alt="YouTube"></a>
+                <a href="https://www.instagram.com/petrobox/"><img src="/images/social_logos/instagram.png" alt="Instagram"></a>
+                <a href="https://acortar.link/8WkleQ"><img src="/images/social_logos/whatsapp_.png" alt="WhatsApp"></a>
+            </div>
+        </div>
+
+        <div class="logo">
+            <a href="/index.html"><img src="/images/logo_principal_.png" alt="Logo PetroBox"></a>
+        </div>
+
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="menu">
+            <a href="/index.html">INICIO</a>
+            <a href="/productos/pointbox.html">PRODUCTOS</a>
+            <a href="/servicios.html">SERVICIOS</a>
+            <a href="/sectores.html">SECTORES</a>
+            <a href="/preguntas.html">PREGUNTAS</a>
+            <a href="/contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+
+    <div class="productos-container">
+        <aside class="sidebar">
+            <h3>LISTA DE PRODUCTOS</h3>
+            <ul>
+                <li><a href="pointbox.html">PointBox</a></li>
+                <li><a href="terminal.html">Terminal</a></li>
+                <li><a href="microsd.html">MicroSD</a></li>
+                <li><a href="discossd.html">Disco SSD</a></li>
+                <li><a href="posprinter.html">PosPrinter</a></li>
+                <li><a href="display.html">Pantalla Display</a></li>
+                <li><a href="fanless.html">Servidor Fanless</a></li>
+                <li><a href="telemetria.html">Sonda de Telemetría</a></li>
+                <li><a href="controladoraalien.html">Controladora Alien</a></li>
+                <li><a href="bcombustible.html">Bombas de Combustible</a></li>
+            </ul>
+            
+        </aside>
+
+        <main class="contenido-productos">
+            <div class="lema-texto">
+                <h4>PRODUCTOS</h4>
+                <p>
+                    PetroBox Internacional desarrolla tecnología a medida para brindarle a nuestros clientes productos de calidad.
+                </p>
+            </div>
+
+            <section class="producto">
+                <h2 class="titulo-producto">Disco SSD</h2>
+              
+                <div class="producto-contenido">
+                  <img src="/images/disco.png" alt="Disco SSD" class="producto-imagen">
+              
+                  <div class="producto-descripcion">
+                    <p>El <strong>Disco SSD de 1TB</strong> ofrece un rendimiento de alta velocidad ideal para mejorar la eficiencia de laptops y PCs. Con velocidades de lectura y escritura mucho más rápidas que los discos duros tradicionales, este SSD permite iniciar el sistema operativo, cargar aplicaciones y transferir archivos en segundos.</p>
+              
+                    <p>Además de su velocidad, este dispositivo es más silencioso, resistente a golpes y consume menos energía, lo que lo convierte en una excelente opción tanto para uso personal como profesional.</p>
+                  </div>
+                </div>
+              
+                <div class="producto-detalles-cuadro">
+                  <div><strong>Capacidad:</strong></div>
+                  <div>1TB</div>
+                  <div><strong>Interfaz:</strong></div>
+                  <div>SATA III 6Gb/s</div>
+                  <div><strong>Velocidad de Lectura:</strong></div>
+                  <div>Hasta 550 MB/s</div>
+                  <div><strong>Velocidad de Escritura:</strong></div>
+                  <div>Hasta 500 MB/s</div>
+                  <div><strong>Formato:</strong></div>
+                  <div>2.5 pulgadas</div>
+                  <div><strong>Dimensiones:</strong></div>
+                  <div>100 x 70 x 7 mm</div>
+                  <div><strong>Resistencia:</strong></div>
+                  <div>A prueba de golpes y sin partes móviles</div>
+                  <div><strong>Precio:</strong></div>
+                  <div>1,250 Bs.</div>
+                </div>
+              </section>
+              
+              <div class="producto-boton">
+                <a href="https://wa.me/59172624219?text=Hola, estoy interesado en comprar el producto Disco SSD." class="boton-comprar">
+                    <img src="/images/carrito.png" alt="Carrito" class="icono-carrito"> Comprar
+                </a>
+            </div>
+              </section>
+              
+              
+              
+            
+        </main>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('menu-visible');
+        }
+    </script>
+
+    <footer class="footer-institucional">
+        <div class="footer-logos">
+            <img src="/images/logo_foot.png" alt="Logo ANH">
+        </div>
+
+        <div class="footer-info">
+            <p>PetroBox Internacional |  Edif. Jorori Norte - Piso 4. Av. Principal y Calle 7 Santa Cruz de la Sierra </p>
+            <p>
+                Tel: (591) 77386034 |
+                Email: soporte@petrobox.net
+            </p>
+            <p><strong>© PETROCONUR S.R.L. ® | 2025</strong></p>
+        </div>
+    </footer>
+</body>
+</html>

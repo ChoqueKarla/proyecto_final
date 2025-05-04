@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Servicios de tecnología, soporte, mantenimiento e implementación de PetroConosur S.R.L.">
+  <title>PetroConosur S.R.L.</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="servi.css" />
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/PetroBox"><img src="/images/social_logos/Facebook_Logo.png" alt="Facebook"></a>
+        <a href="https://www.youtube.com/@shimodadonald"><img src="/images/social_logos/Youtube_logo.png" alt="YouTube"></a>
+        <a href="https://www.instagram.com/petrobox/"><img src="/images/social_logos/instagram.png" alt="Instagram"></a>
+        <a href="https://acortar.link/8WkleQ"><img src="/images/social_logos/whatsapp_.png" alt="WhatsApp"></a>
+      </div>
+    </div>
+
+    <div class="logo">
+      <a href="index.html"><img src="/images/logo_principal_.png" alt="Logo PetroBox"></a>
+    </div>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav class="menu">
+      <a href="/index.html">INICIO</a>
+      <a href="/productos/pointbox.html">PRODUCTOS</a>
+      <a href="/servicios.html">SERVICIOS</a>
+      <a href="/sectores.html">SECTORES</a>
+      <a href="/preguntas.html">PREGUNTAS</a>
+      <a href="/contacto.html">CONTACTO</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="service-card">
+      <h3 class="service-title">Mantenimiento Preventivo</h3>
+      <img src="/images/mantenimiento.jpg" alt="Mantenimiento Preventivo" class="service-image" onclick="openModal('modal1')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Cuadre</h3>
+      <img src="/images/cuadre.jpg" alt="Cuadre" class="service-image" onclick="openModal('modal2')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Soporte Call Center</h3>
+      <img src="/images/soporte.png" alt="Soporte Call Center" class="service-image" onclick="openModal('modal3')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Easy Pay QR</h3>
+      <img src="/images/easy.jpg" alt="Easy Pay QR" class="service-image" onclick="openModal('modal4')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Implementaciones</h3>
+      <img src="/images/implementacion.jpg" alt="Implementaciones" class="service-image" onclick="openModal('modal5')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Impresión Opcional</h3>
+      <img src="/images/impopcional.jpg" alt="Impresión Opcional" class="service-image" onclick="openModal('modal6')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Inspección Técnica</h3>
+      <img src="/images/inspeccion.jpg" alt="Inspección Técnica" class="service-image" onclick="openModal('modal7')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Reducción de Facturas</h3>
+      <img src="/images/reduccionfac.jpg" alt="Reducción de Facturas" class="service-image" onclick="openModal('modal8')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Renovación de Firmas y Certificados</h3>
+      <img src="/images/renovafirmas.jpg" alt="Renovación de Firmas y Certificados" class="service-image" onclick="openModal('modal9')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Migración a S.O. Windows 11</h3>
+      <img src="/images/miragracionwin11.jpg" alt="Migración a Windows 11" class="service-image" onclick="openModal('modal10')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Replicación en Tiempo Real</h3>
+      <img src="/images/replicator.jpg" alt="Replicación" class="service-image" onclick="openModal('modal11')">
+    </div>
+    <div class="service-card">
+      <h3 class="service-title">Cambio de Disco Preventivo</h3>
+      <img src="/images/cambiodisco.jpg" alt="Cambio de Disco" class="service-image" onclick="openModal('modal12')">
+    </div>
+
+    
+   
+ 
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h2 class="modal-title">Mantenimiento Preventivo</h2>
+    <img src="/images/mantenimiento2.png" alt="Imagen del servicio" class="modal-image">
+    <p>Este servicio consiste en la revisión, limpieza y optimización mensual de los equipos Petrobox instalados en la estación de servicio. Se aseguran las conexiones, se actualizan configuraciones y se mejora el rendimiento general.</p>
+    <p class="modal-price"><strong>Precio:</strong> 345 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h2 class="modal-title">Cuadre</h2>
+    <img src="/images/cuadre2.jpg" alt="Imagen del servicio" class="modal-image">
+    <p>Servicio para realizar el cuadrado contable y la conciliación de los informes de ventas. Asegura que los números coincidan con las ventas reportadas.</p>
+    <p class="modal-price"><strong>Precio:</strong> 250 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal3')">&times;</span>
+    <h2 class="modal-title">Soporte Call Center</h2>
+    <img src="/images/soporte2.png" alt="Imagen del servicio" class="modal-image">
+    <p>Asistencia telefónica para resolver problemas técnicos, dudas o inquietudes sobre los productos y servicios Petrobox.</p>
+    <p class="modal-price"><strong>Precio:</strong> 150 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal4')">&times;</span>
+    <h2 class="modal-title">Easy Pay QR</h2>
+    <img src="/images/easy2.jpg" alt="Imagen del servicio" class="modal-image">
+    <p>Solución de pago rápido a través de QR, facilitando la realización de pagos para los usuarios de la estación de servicio.</p>
+    <p class="modal-price"><strong>Precio:</strong> 180 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal5')">&times;</span>
+    <h2 class="modal-title">Implementaciones</h2>
+    <img src="/images/implementacion2.png" alt="Imagen del servicio" class="modal-image">
+    <p>Implementación de sistemas de gestión y software personalizado para optimizar la operación en estaciones de servicio.</p>
+    <p class="modal-price"><strong>Precio:</strong> 500 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal6" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal6')">&times;</span>
+    <h2 class="modal-title">Impresión Opcional</h2>
+    <img src="/images/impopcional.jpg" alt="Imagen del servicio" class="modal-image">
+    <p>Servicio opcional de impresión de informes, reportes y otros documentos necesarios para la gestión de la estación de servicio.</p>
+    <p class="modal-price"><strong>Precio:</strong> 100 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal7" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal7')">&times;</span>
+    <h2 class="modal-title">Inspección Técnica</h2>
+    <img src="/images/inspeccion2.png" alt="Imagen del servicio" class="modal-image">
+    <p>Inspección periódica de equipos y sistemas en la estación de servicio para asegurar que todo funcione correctamente.</p>
+    <p class="modal-price"><strong>Precio:</strong> 400 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal8" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal8')">&times;</span>
+    <h2 class="modal-title">Reducción de Facturas</h2>
+    <img src="/images/reduccionfac.jpg" alt="Imagen del servicio" class="modal-image">
+    <p>Servicio para reducir el costo de facturas generadas en la estación de servicio, optimizando gastos y recursos.</p>
+    <p class="modal-price"><strong>Precio:</strong> 350 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal9" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal9')">&times;</span>
+    <h2 class="modal-title">Renovación de Firmas y Certificados</h2>
+    <img src="/images/renovafirmas.jpg" alt="Imagen del servicio" class="modal-image">
+    <p>Renovación periódica de firmas electrónicas y certificados necesarios para la operación legal de la estación de servicio.</p>
+    <p class="modal-price"><strong>Precio:</strong> 200 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal10" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal10')">&times;</span>
+    <h2 class="modal-title">Migración a Windows 11</h2>
+    <img src="/images/miragracionwin11.jpg" alt="Imagen del servicio" class="modal-image">
+    <p>Servicio de migración para actualizar los equipos de la estación de servicio a Windows 11, mejorando la seguridad y rendimiento del sistema operativo.</p>
+    <p class="modal-price"><strong>Precio:</strong> 300 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal11" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal11')">&times;</span>
+    <h2 class="modal-title">Replicación</h2>
+    <img src="/images/replicator.jpg" alt="Imagen del servicio" class="modal-image">
+    <p>Servicio para la replicación de sistemas y datos entre estaciones de servicio para asegurar la consistencia y disponibilidad de la información.</p>
+    <p class="modal-price"><strong>Precio:</strong> 450 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal12" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal12')">&times;</span>
+    <h2 class="modal-title">Cambio de Disco</h2>
+    <img src="/images/cambiodisco.jpg" alt="Imagen del servicio" class="modal-image">
+    <p>Servicio para el reemplazo de discos duros en los equipos de la estación de servicio, mejorando la capacidad de almacenamiento y el rendimiento del sistema.</p>
+    <p class="modal-price"><strong>Precio:</strong> 400 Bs/mes</p>
+    <div class="modal-button-wrapper">
+      <a href="https://wa.me/59172624219" class="modal-button" target="_blank">
+        <img src="/images/carrito.png" alt="Carrito" class="icono-carrito">
+        Comprar
+    </a>
+    </div>
+  </div>
+</div>
+
+
+    
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('menu-visible');
+    }
+
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) modal.style.display = "block";
+    }
+
+    function closeModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) modal.style.display = "none";
+    }
+
+
+    window.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        document.querySelectorAll(".modal").forEach((modal) => {
+          modal.style.display = "none";
+        });
+      }
+    });
+  </script>
+
+  <footer class="footer-institucional">
+    <div class="footer-logos">
+      <img src="/images/logo_foot.png" alt="Logo ANH">
+    </div>
+    <div class="footer-info">
+      <p>PetroBox Internacional | Edif. Jorori Norte - Piso 4. Av. Principal y Calle 7 Santa Cruz de la Sierra</p>
+      <p>Tel: (591) 77386034 | Email: soporte@petrobox.net</p>
+      <p><strong>© PETROCONOSUR S.R.L. ® | 2025</strong></p>
+    </div>
+  </footer>
+</body>
+</html>

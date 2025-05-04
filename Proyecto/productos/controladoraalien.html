@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetroConosur S.R.L.</title>
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="/productos.css">
+    <link rel="stylesheet" href="/product.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/PetroBox"><img src="/images/social_logos/Facebook_Logo.png" alt="Facebook"></a>
+                <a href="https://www.youtube.com/@shimodadonald"><img src="/images/social_logos/Youtube_logo.png" alt="YouTube"></a>
+                <a href="https://www.instagram.com/petrobox/"><img src="/images/social_logos/instagram.png" alt="Instagram"></a>
+                <a href="https://acortar.link/8WkleQ"><img src="/images/social_logos/whatsapp_.png" alt="WhatsApp"></a>
+            </div>
+        </div>
+
+        <div class="logo">
+            <a href="/index.html"><img src="/images/logo_principal_.png" alt="Logo PetroBox"></a>
+        </div>
+
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="menu">
+            <a href="/index.html">INICIO</a>
+            <a href="/productos/pointbox.html">PRODUCTOS</a>
+            <a href="/servicios.html">SERVICIOS</a>
+            <a href="/sectores.html">SECTORES</a>
+            <a href="/preguntas.html">PREGUNTAS</a>
+            <a href="/contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+
+    <div class="productos-container">
+        <aside class="sidebar">
+            <h3>LISTA DE PRODUCTOS</h3>
+            <ul>
+                <li><a href="pointbox.html">PointBox</a></li>
+                <li><a href="terminal.html">Terminal</a></li>
+                <li><a href="microsd.html">MicroSD</a></li>
+                <li><a href="discossd.html">Disco SSD</a></li>
+                <li><a href="posprinter.html">PosPrinter</a></li>
+                <li><a href="display.html">Pantalla Display</a></li>
+                <li><a href="fanless.html">Servidor Fanless</a></li>
+                <li><a href="telemetria.html">Sonda de Telemetría</a></li>
+                <li><a href="controladoraalien.html">Controladora Alien</a></li>
+                <li><a href="bcombustible.html">Bombas de Combustible</a></li>
+            </ul>
+            
+        </aside>
+
+        <main class="contenido-productos">
+            <div class="lema-texto">
+                <h4>PRODUCTOS</h4>
+                <p>
+                    PetroBox Internacional desarrolla tecnología a medida para brindarle a nuestros clientes productos de calidad.
+                </p>
+            </div>
+
+            <section class="producto">
+                <h2 class="titulo-producto">Controladora Alien</h2>
+              
+                <div class="producto-contenido">
+                  <img src="/images/controladora.jpg" alt="Controladora de Bombas" class="producto-imagen">
+              
+                  <div class="producto-descripcion">
+                    <p>La <strong>Controladora de Bombas de Combustible</strong> es un sistema centralizado que gestiona el funcionamiento de múltiples bombas de combustible en una estación. Esta placa de control se encarga de coordinar el flujo de combustible, la emisión de recibos, el monitoreo de los niveles de combustible y la comunicación con otros sistemas como impresoras y pantallas, garantizando una operación eficiente y segura.</p>
+              
+                    <p>Con su capacidad para gestionar varias bombas al mismo tiempo, la <strong>Controladora</strong> asegura que cada transacción y operación se realice de manera sincronizada, permitiendo un control completo y optimizado de la estación de servicio.</p>
+                  </div>
+                </div>
+              
+                <div class="producto-detalles-cuadro">
+                  <div><strong>Compatibilidad:</strong></div>
+                  <div>Varias bombas de combustible, pantallas, impresoras</div>
+                  <div><strong>Puertos:</strong></div>
+                  <div>USB, Ethernet, Conexión directa a bombas</div>
+                  <div><strong>Control:</strong></div>
+                  <div>Gestión de múltiples bombas, monitoreo de flujo, emisión de recibos</div>
+                  <div><strong>Alimentación:</strong></div>
+                  <div>12V – 24V</div>
+                  <div><strong>Funciones:</strong></div>
+                  <div>Control de varias bombas, supervisión en tiempo real, integración con otros dispositivos</div>
+                  <div><strong>Precio:</strong></div>
+                  <div>8,599 Bs.</div>
+                </div>
+              </section>
+              
+              
+              <div class="producto-boton">
+                <a href="https://wa.me/59172624219?text=Hola, estoy interesado en comprar el producto Controladora." class="boton-comprar">
+                    <img src="/images/carrito.png" alt="Carrito" class="icono-carrito"> Comprar
+                </a>
+            </div>
+              </section>
+              
+              
+              
+            
+        </main>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('menu-visible');
+        }
+    </script>
+
+    <footer class="footer-institucional">
+        <div class="footer-logos">
+            <img src="/images/logo_foot.png" alt="Logo ANH">
+        </div>
+
+        <div class="footer-info">
+            <p>PetroBox Internacional |  Edif. Jorori Norte - Piso 4. Av. Principal y Calle 7 Santa Cruz de la Sierra </p>
+            <p>
+                Tel: (591) 77386034 |
+                Email: soporte@petrobox.net
+            </p>
+            <p><strong>© PETROCONUR S.R.L. ® | 2025</strong></p>
+        </div>
+    </footer>
+</body>
+</html>

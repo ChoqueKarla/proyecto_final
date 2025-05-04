@@ -1,0 +1,54 @@
+.retail-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .retail-section h2 {
+    color: #2a3e50;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .retail-section hr {
+    border: none;
+    height: 3px;
+    background-color: #2a3e50;
+    width: 100%;
+    margin: 10px 0 40px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    text-align: left;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .card h3 {
+    margin-top: 15px;
+    color: #2a3e50;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+  }
+  

@@ -1,0 +1,121 @@
+body, .productos-container, .contenido-productos, .sidebar {
+    margin: 0;
+    padding: 0;
+}
+
+.productos-container {
+    display: flex;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar {
+    width: 240px;
+    background-color:#4963bf;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar h3 {
+    margin-bottom: 20px;
+    font-size:17px;
+    color: #111;
+    font-weight: 600;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    margin: 6px 12px;
+    border-radius: 8px;
+    color: #030303;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.sidebar ul li a:active {
+    background-color: #e5e5e5;
+}
+
+.sidebar ul li a::before {
+    content: "📦";
+    font-size: 16px;
+    color: #606060;
+}
+
+
+.contenido-productos {
+    flex: 1;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #f0f4f8;
+}
+
+.lema-texto {
+    margin-bottom: 20px;
+    color: #000;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lema-texto h4 {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+
+.lema-texto p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+    .productos-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-top: 1px solid #ccc;
+        padding: 15px 0;
+    }
+
+    .sidebar ul li a {
+        padding: 10px 15px;
+    }
+
+    .contenido-productos {
+        padding: 10px;
+    }
+}

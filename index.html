@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetroConosur S.R.L.</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+      <div class="top-bar">
+        <div class="social-icons">
+          <a href="https://www.facebook.com/PetroBox"><img src="/images/social_logos/Facebook_Logo.png" alt="Facebook"></a>
+          <a href="https://www.youtube.com/@shimodadonald"><img src="/images/social_logos/Youtube_logo.png" alt="YouTube"></a>
+          <a href="https://www.instagram.com/petrobox/"><img src="/images/social_logos/instagram.png" alt="Instagram"></a>
+          <a href="https://acortar.link/8WkleQ"><img src="/images/social_logos/whatsapp_.png" alt="WhatsApp"></a>
+        </div>
+      </div>
+  
+      <div class="logo">
+        <a href="index.html"><img src="/images/logo_principal_.png" alt="Logo PetroBox"></a>
+      </div>
+
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <<nav class="menu">
+        <a href="/index.html">INICIO</a>
+        <a href="/productos/pointbox.html">PRODUCTOS</a>
+        <a href="/servicios.html">SERVICIOS</a>
+        <a href="/sectores.html">SECTORES</a>
+        <a href="/preguntas.html">PREGUNTAS</a>
+        <a href="/contacto.html">CONTACTO</a>
+    </nav>
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="/images/carrusel5.png" alt="Slide 1">
+          <img src="/images/carrusel4.png" alt="Slide 2">
+          <img src="/images/carrusel3.png" alt="Slide 3">
+          <img src="/images/carrusel1.png" alt="Slide 4">
+          <img src="/images/carrusel2.png" alt="Slide 5">
+        </div>
+      </div>
+      <div class="franjas-box">
+        <p><strong>PetroBox® Internacional</strong> es una empresa con presencia en Bolivia, Panamá, Perú, Argentina, Colombia, Guatemala y Honduras.</p>
+        <p>Iniciamos brindando soluciones para la gestión de combustibles a través del desarrollo de sistemas informáticos especializados.</p>
+        <p>Hoy, abarcamos diversas áreas de la industria y el comercio, ofreciendo sistemas y equipos con tecnología avanzada para brindar soluciones prácticas, precisas y duraderas.</p>
+        <p>Con más de 30 años de experiencia en el sector, somos una marca líder y referente en control de combustibles.</p>
+        <p>Nos especializamos en ofrecer soluciones integrales mediante productos y servicios inteligentes, utilizando tecnología adecuada para lograr resultados confiables y eficientes.</p>
+        <p>Queremos ser su socio tecnológico. Permítanos demostrarle por qué nuestro servicio marca la diferencia.</p>
+      </div>
+      
+    </header>
+
+
+    <section class="clientes-box">
+        <h2>Algunos de nuestros clientes</h2>
+        <div class="clientes-grid">
+          <div class="cliente"><img src="/images/genex.png" alt="Cliente 1"></div>
+          <div class="cliente"><img src="/images/ciasa.png" alt="Cliente 2"></div>
+          <div class="cliente"><img src="/images/iasa.jpg" alt="Cliente 3"></div>
+          <div class="cliente"><img src="/images/cbn.png" alt="Cliente 4"></div>
+          <div class="cliente"><img src="/images/ypfb-andina.jpg" alt="Cliente 5"></div>
+          <div class="cliente"><img src="/images/biopetrol.png" alt="Cliente 6"></div>
+        </div>
+      </section>
+      
+      <div class="lema-box">
+        <p><i>"Conviertase en Nuestro Socio Tecnológico y Permítanos mostrarle por qué Nuestro Servicio hace la Diferencia"</i></p>
+      </div>
+
+
+    <script>
+        function toggleMenu() {
+          const menu = document.querySelector('.menu');
+          menu.classList.toggle('menu-visible');
+        }
+      </script>
+      <script>
+        const track = document.querySelector('.carousel-track');
+        const slides = document.querySelectorAll('.carousel-track img');
+        let index = 0;
+      
+        function moveSlide() {
+          index = (index + 1) % slides.length;
+          track.style.transform = `translateX(-${index * 100}%)`;
+        }
+      
+        setInterval(moveSlide, 4000); 
+      </script>
+      
+      
+      <footer class="footer-institucional">
+        <div class="footer-logos">
+          <img src="/images/logo_foot.png" alt="Logo ANH">
+        </div>
+      
+        <div class="footer-info">
+          <p>PetroBox Internacional | 	Edif. Jorori Norte - Piso 4. Av. Principal y Calle 7 Santa Cruz de la Sierra </p>
+          <p>
+            Tel: (591) 77386034 |
+            Email: soporte@petrobox.net
+          </p>
+          <p><strong>© PETROCONUR S.R.L. ® | 2025</strong></p>
+        </div>
+      </footer>
+      
+
+  </body>
+</html>

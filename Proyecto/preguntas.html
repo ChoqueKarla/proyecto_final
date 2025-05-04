@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetroConosur S.R.L.</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+      <div class="top-bar">
+        <div class="social-icons">
+          <a href="https://www.facebook.com/PetroBox"><img src="/images/social_logos/Facebook_Logo.png" alt="Facebook"></a>
+          <a href="https://www.youtube.com/@shimodadonald"><img src="/images/social_logos/Youtube_logo.png" alt="YouTube"></a>
+          <a href="https://www.instagram.com/petrobox/"><img src="/images/social_logos/instagram.png" alt="Instagram"></a>
+          <a href="https://acortar.link/8WkleQ"><img src="/images/social_logos/whatsapp_.png" alt="WhatsApp"></a>
+        </div>
+      </div>
+  
+      <div class="logo">
+        <a href="index.html"><img src="/images/logo_principal_.png" alt="Logo PetroBox"></a>
+      </div>
+
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav class="menu">
+        <a href="/index.html">INICIO</a>
+        <a href="/productos/pointbox.html">PRODUCTOS</a>
+        <a href="/servicios.html">SERVICIOS</a>
+        <a href="/sectores.html">SECTORES</a>
+        <a href="/preguntas.html">PREGUNTAS</a>
+        <a href="/contacto.html">CONTACTO</a>
+    </nav>
+    </header>
+
+<section style="padding: 40px 20px; text-align: center; background-color: #f0f4f8;">
+  <p style="max-width: 700px; margin: 0 auto 30px; font-size: 1.1em;">
+    Si usted tiene alguna pregunta sobre los servicios que ofrecemos, simplemente utilice el formulario a continuación.
+    Tratamos de responder a todas las preguntas y comentarios en un lapso menor a 24 horas.
+  </p>
+
+  <div style="max-width: 600px; margin: 0 auto; text-align: left;">
+    <form action="#" method="post">
+      <div style="margin-bottom: 15px;">
+        <label for="nombre"><strong>Nombre *</strong></label><br>
+        <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 8px;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label for="email"><strong>E-mail *</strong></label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 8px;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label for="pais"><strong>País *</strong></label><br>
+        <input type="text" id="pais" name="pais" required style="width: 100%; padding: 8px;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label for="mensaje"><strong>Mensaje *</strong></label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" required style="width: 100%; padding: 8px;"></textarea>
+      </div>
+
+      <div style="text-align: right;">
+        <button type="submit" style="padding: 8px 18px;">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+    <script>
+        function toggleMenu() {
+          const menu = document.querySelector('.menu');
+          menu.classList.toggle('menu-visible');
+        }
+    </script>
+      
+    <footer class="footer-institucional">
+      <div class="footer-logos">
+        <img src="/images/logo_foot.png" alt="Logo ANH">
+      </div>
+    
+      <div class="footer-info">
+        <p>PetroBox Internacional | Edif. Jorori Norte - Piso 4. Av. Principal y Calle 7 Santa Cruz de la Sierra </p>
+        <p>
+          Tel: (591) 77386034 |
+          Email: soporte@petrobox.net
+        </p>
+        <p><strong>© PETROCONUR S.R.L. ® | 2025</strong></p>
+      </div>
+    </footer>
+</body>
+</html>
